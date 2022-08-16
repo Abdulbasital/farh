@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  scroll-behavior: smooth;
+}
+.head {
+  background-color: #473d26;
+}
+.head a {
+  color: white;
+}
+.head ul a {
+  font-size: 15px;
+  float: right;
+  transition: 0.5s;
+}
+
+.sl img {
+  height: calc(100vh - 87px);
+}
+
+@media (max-width: 767px) {
+  ul {
+    height: 100vh;
+  }
+}
+.carousel-caption {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sll {
+  background-color: #473d26;
+}
+.para {
+  padding-top: 50px;
+}
+h2.title.text-center {
+  color: burlywood;
+  padding-bottom: 10px;
+  font-size: 27px;
+  font-weight: 100;
+}
+.para p {
+  color: black;
+  font-weight: 600;
+}
+h3.title.text-center {
+  color: #d17d11;
+  padding-bottom: 10px;
+  font-size: 20px;
+  margin-top: -10px;
+  position: relative;
+}
+.para .title1::after {
+  content: " ";
+  position: absolute;
+  height: 2px;
+  background-color: burlywood;
+  width: 200px;
+  left: 50%;
+  /* top: -8px; */
+  transform: translateX(-50%);
+  bottom: -60px;
+}
+.im {
+  width: 100%;
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  padding-top: 25px;
+  position: relative;
+}
+.im img {
+  width: 100%;
+  height: 100%;
+}
+/* @media (min-width: 1200px) {
+  .im {
+    height: 100vh;
+  }
+} */
+.pp {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.put {
+  text-align: center;
+  padding-top: 30px;
+}
+button.btn {
+  background: #8d5d1f;
+  width: 250px;
+  border-radius: 15px;
+}
+.put h2,
+.put h3 {
+  padding-top: 55px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: cursive;
+  color: #ac9660;
+}
+.put h3 {
+  padding-top: 30px;
+}
+.ico.text-center {
+  padding-top: 40px;
+  color: white;
+  background-color: black;
+  padding: 40px;
+}
+.ico h4 {
+  font-size: 21px;
+  font-family: cursive;
+}
+footer {
+  background: #333;
+  padding: 60px 0;
+}
+footer ul {
+  /* padding-top: 152px; */
+  /* position: relative; */
+  border: 3px solid white;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+footer ul li a {
+  color: white !important;
+}
+.ic {
+  padding-top: 40px;
+  color: white;
+}
+.ic p {
+  font-size: 14px;
+  padding-top: 20px;
+}
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}

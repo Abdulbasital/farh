@@ -1,0 +1,86 @@
+.head h2 {
+  padding-top: 50px;
+  color: #a7911a;
+  font-weight: 300;
+}
+.imgs img {
+  width: 100%;
+  padding-top: 50px;
+}
+.para {
+  padding-top: 50px;
+}
+.para h3 {
+  font-size: revert;
+  color: #000000de;
+}
+.para p {
+  color: #00000087;
+  font-weight: 400;
+}
+.mode {
+  /* background: blueviolet; */
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.a1 {
+  padding-top: 45px;
+  position: relative;
+}
+.a1 h3 {
+  /* padding-top: 50px; */
+  color: #a7911a;
+  font-weight: 300;
+}
+.pp a {
+  color: #a7911a;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: revert;
+}
+.a1::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 1px;
+  left: -48px;
+  top: 0;
+  background-color: #a7911a;
+}
+.ico.text-center {
+  color: white;
+  background: #333;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background: #333333e6;
+  min-height: 570px;
+  display: flex;
+  align-items: center;
+}
+ul.navbar-nav.ms-auto {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  padding: 20px;
+}
+footer ul.navbar-nav a {
+  color: white;
+  transition: 0.5s;
+}
+.ic {
+  color: white;
+  padding: 20px;
+}
+.ic p {
+  margin-top: 20px;
+}
